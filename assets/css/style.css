@@ -1,0 +1,105 @@
+body{
+    background-color:brown;
+    background-image: url("../images/diamond.png");
+    font-family: 'Roboto';
+}
+#container{
+    width: 900px;
+    height: 1500px;
+}
+#parentTitleBox{
+    margin:25px auto auto 10px;
+}
+.titleBox{
+    height: 200px;
+    width: 400px;
+    background-color:brown;
+    display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+   color: black;
+   font-size: 40px;
+   border: 5px solid black;
+}
+#instructionBox{
+    margin:25px auto auto 10px;
+    width: 600px;
+    height: 500px;
+    background-color: burlywood;
+    color: black;
+    font-size: 25px;
+    border:5px solid black;
+
+}
+#parentRanWlBox{
+    margin:25px 0 0 10px;
+    width:600px;
+    height: 250px;
+}
+.ranNumBox{
+    width: 55%;
+    height: 100%;
+    float: left;
+    background-color: green;
+    font-size: 50px;
+    color:black;
+    border: 5px solid black;
+}
+.winLoseBox{
+    width: 40%;
+    height: 100%;
+    float:right;
+    background-color: aqua;
+    color: black;
+    border: 5px solid black;
+}
+.winLoseBox p{
+    font-size: 25px;
+}
+#parentGameButtons{
+    margin:25px auto auto 10px;
+    height: 100px;
+    width: 600px;
+}
+.box{
+    width: 130px;
+    height: 100%;
+    margin:0 10px 0 10px;
+    float: left;
+    overflow: hidden;
+
+}
+#parentScore{
+    margin:25px auto auto 10px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+
+}
+.score{
+    margin:25px auto auto 10px;
+    width: 100%;
+    height: 25%;
+    background-color: #4aaa;
+    font-size: 40px;
+    border: 5px solid black;    
+}
+.score p{
+    font-size: 25px;
+    color: black;
+    padding: 15px 0 0 5px;
+}
+.scoreDisplay{
+    margin:25px auto auto 10px;
+    width: 100%;
+    height: 70%;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 0px;
+    border: 5px solid black;
+}
+.scoreDisplay p{
+    font-size: 25px;
+    padding: 10px 0 0 10px;
+    color:black;
+}
